@@ -1,0 +1,505 @@
+.peer-tutoring-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header-text {
+    padding: 12px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0f291f; /* Heading text color */
+  }
+  
+  .info-text {
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .advantages-heading,
+  .notes-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #0f291f; /* Heading text color */
+  }
+  
+  .advantages-list,
+  .notes-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .advantages-item,
+  .notes-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    font-size: large;
+  }
+  
+  .thank-you,
+  .warm-regards,
+  .peer-facilitators {
+    font-size: 18px;
+    color: #333;
+    text-align: left; /* Align text to the left */
+    margin-top: 20px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .next-button {
+    background-color: #0f291f; /* Button color */
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #53645e; /* Hover effect */
+  }
+  
+  .advantages-heading,
+  .notes-heading,
+  .submit-container {
+    margin-top: 40px; /* Increased space to avoid elements being too close */
+  }
+  
+/* Main container styles */
+.course-selection-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.header-text {
+  color: #0f291f;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.info-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Scrollable Course Lists */
+.courses-list {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.course-category {
+  margin-bottom: 2rem;
+}
+
+.category-title {
+  font-size: 1.25rem;
+  color: #0f291f;
+  margin-bottom: 0.75rem;
+}
+
+.course-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.course-items label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.course-items input {
+  margin-right: 0.75rem;
+  accent-color: #0f291f; /* Custom color for checkboxes */
+}
+
+/* Make the form responsive */
+@media (max-width: 768px) {
+  .course-selection-container {
+    padding: 1.5rem;
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .info-text {
+    font-size: 0.9rem;
+  }
+
+  .category-title {
+    font-size: 1rem;
+  }
+}
+
+/* Button styles */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  color: #0f291f;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+  padding: 12px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button {
+  background-color: #0f291f; /* Button color */
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #357e58;
+}
+
+/* Container for the entire form */
+.personal-info-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Title for the form */
+.personal-info-container h2 {
+  text-align: left;
+  color: #0f291f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.personal-info-container p {
+  text-align: left;
+  color: #53645e;
+  font-size: 14px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input fields and selects */
+input[type="text"],
+input[type="email"],
+select,
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  padding: 12px;
+  border: 1px solid #acb0af;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  transition: border 0.3s ease;
+}
+
+/* Date Picker Styling */
+.react-datepicker-wrapper {
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.react-datepicker__header {
+  background-color: #0f291f;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.react-datepicker__current-month {
+  font-size: 16px;
+}
+
+.react-datepicker__day-name {
+  font-size: 14px;
+}
+
+.react-datepicker__day, .react-datepicker__day--selected {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.react-datepicker__day--selected {
+  background-color: #0f291f;
+  color: white;
+}
+
+/* Submit Button */
+button {
+  padding: 12px;
+  background-color: #0f291f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+  background-color: #2a5a44;
+}
+
+/* Form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Label Styling */
+label {
+  font-weight: bold;
+  color: #0f291f;
+  font-size: 14px;
+}
+
+/* Error Messages */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Input focus styles */
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #53645e;
+  box-shadow: 0 0 5px rgba(83, 100, 94, 0.5);
+}
+
+/* Space between form elements */
+input[type="text"], 
+input[type="email"], 
+select {
+  margin-bottom: 8px;
+}
+
+/* Text field for specifying gender if 'Others' is selected */
+input[type="text"]:focus {
+  border-color: #0f291f;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Styles for the select input (college dropdown) */
+select {
+  padding: 12px;
+  border: 1px solid #acb0af;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* For the 'Others' input to specify gender */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Spacing for the availability date picker */
+.react-datepicker-wrapper {
+  margin-top: 10px;
+}
+
+/* Customizing the error message */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Input error styles */
+input.error, select.error {
+  border: 1px solid red;
+  background-color: #ffe6e6;
+}
+
+/* Ensuring consistent height for all inputs */
+input[type="text"],
+input[type="email"],
+select,
+input[type="number"],
+input[type="date"],
+input[type="time"],
+.react-datepicker-wrapper {
+  height: 48px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* Styling for back and submit buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.back-button, .submit-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Arial', sans-serif;
+}
+
+.back-button {
+  background-color: #b0b0b0;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #8d8d8d;
+}
+
+.submit-button {
+  background-color: #0f291f;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #2a5a44;
+}
+
+
+/* Popup styling */
+.popup-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Center the popup */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for card effect */
+  z-index: 1000;  /* Make sure it's in front */
+  max-width: 400px;  /* Restrict the max width */
+  width: 100%;  /* Ensure it adapts to screen size */
+}
+
+/* Overlay effect */
+.popup-message:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: -1; /* Place the overlay behind the popup */
+}
+
+/* Popup content inside the card */
+.popup-content {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.close-button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #0f291f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #2a5a44;  /* Darker shade for hover effect */
+}
+
+/* Optional: Add some styles for error messages */
+.popup-message .error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Content inside the popup */
+.popup-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+

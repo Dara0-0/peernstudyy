@@ -1,0 +1,70 @@
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .skills .skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .skills .skill-items .item {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers all content vertically */
+  }
+  
+  .skills .skill-items .item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills .skill-items .item .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #006b6a;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills .skill-items .item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center; /* Ensures text stays centered */
+  }
+  
+  .skills .skill-items .item p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    text-align: center; /* Centers paragraph text */
+  }
+  
